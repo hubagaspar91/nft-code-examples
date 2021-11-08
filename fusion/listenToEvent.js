@@ -4,6 +4,10 @@ const apiKeys = {}
 const contractAddress = ''; // smart contract address
 const abi = [];  // JSON interface for interaction with the contract, will be provided
 
+// Ethers.js is the preferred lib for listening, as it supports
+// Inputting multiple ethereum connections over multiple providers
+// So an external provider cannot be the single point of failure
+
 const listenToEvent = () => {
   const provider = ethers.getDefaultProvider(
     'homestead',  // network name, "homestead" is ethereum mainnet, "rinkeby" is our preferred testnet
