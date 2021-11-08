@@ -18,6 +18,7 @@
   "homepage": "https://github.com/hubagaspar91/nft-code-examples#readme",
   "dependencies": {
     "bs58": "^4.0.1",
+    "ethers": "^5.5.1",
     "web3": "^1.6.0"
   }
 }
