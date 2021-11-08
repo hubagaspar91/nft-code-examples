@@ -6,6 +6,11 @@ const web3 = new Web3();
 const mockPrivateKey = '';  // a private key that is gonna be used to generate the signatures
 
 // function to create the arguments for calling the fusion method on the smart contract
+// sender - eth address
+// toFuse - tokenId
+// toBurn - tokenId
+// catalysts - integer
+// fusionReceiptIPFSHash - IPFS hash of  the fusion receipts (string)
 const createFusionParams = (sender, toFuse, toBurn, catalysts, fusionReceiptIPFSHash) => {
   // IPFS hashes are base58 encoded by default, and are 34 bytes long
   // a 32 bytes hash, and the first two bytes, that signify the hash function used
