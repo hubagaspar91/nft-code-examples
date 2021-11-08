@@ -1,0 +1,23 @@
+{
+  "name": "nft-code-examples",
+  "version": "1.0.0",
+  "description": "## context/WalletContextProvider.tsx",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hubagaspar91/nft-code-examples.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hubagaspar91/nft-code-examples/issues"
+  },
+  "homepage": "https://github.com/hubagaspar91/nft-code-examples#readme",
+  "dependencies": {
+    "bs58": "^4.0.1",
+    "web3": "^1.6.0"
+  }
+}
